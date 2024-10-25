@@ -1,12 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.example.template.mixin",
+  "package": "io.github.racoondog.crop.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "CropBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

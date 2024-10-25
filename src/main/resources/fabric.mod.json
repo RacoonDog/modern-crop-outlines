@@ -1,29 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "template-mod",
+  "id": "modern-crop-outlines",
   "version": "${version}",
-  "name": "Template Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Modern Crop Outlines",
+  "description": " Backports modern crop outlines to legacy fabric 1.8.",
   "authors": [
-    "Me!"
+    "Crosby"
   ],
   "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/LegacyHypixel/legacy-fabric-template-mod"
+    "sources": "https://github.com/RacoonDog/modern-crop-outlines",
+    "issues": "https://github.com/RacoonDog/modern-crop-outlines/issues"
   },
   "license": "CC0-1.0",
-  "icon": "assets/template-mod/icon.png",
+  "icon": "assets/modern-crop-outlines/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.example.template.TemplateMod"
-    ]
-  },
   "mixins": [
-    "template-mod.mixins.json"
+    "modern-crop-outlines.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.19",
+    "fabricloader": "*",
     "minecraft": "1.8.9"
   }
 }
